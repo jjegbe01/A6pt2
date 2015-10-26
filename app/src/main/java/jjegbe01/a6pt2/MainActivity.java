@@ -22,10 +22,10 @@ public class MainActivity extends AppCompatActivity {
 
     // Method to start the service
     public void startService(View view) {
-        startService(new Intent(getBaseContext(), HelloService.class));
+        startService(new Intent(getBaseContext(), MyService.class));
     }
     // Method to stop the service
     public void stopService(View view) {
-        stopService(new Intent(getBaseContext(), HelloService.class));
+        stopService(new Intent(getBaseContext(), MyService.class));
     }
 }
